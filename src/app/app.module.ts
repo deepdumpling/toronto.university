@@ -10,10 +10,12 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { ContentModule } from './content/content.module';
 import { SharedModule } from './shared/shared.module';
+import { TradingComponent } from './app/content/trading/trading.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TradingComponent
   ],
   imports: [
     BrowserModule,

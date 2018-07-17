@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
     {link: 'join', title: 'Join Us'},
     {link: 'team', title: 'Team'},
     {link: 'notes', title: 'Course Notes'},
+    {link: 'trading', title: 'Trading Project'},
   ];
   external_cards = [
     {link: 'https://monkeykingg.github.io/', title: 'UTMap'},
